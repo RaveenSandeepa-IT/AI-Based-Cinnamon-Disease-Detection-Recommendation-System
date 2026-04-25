@@ -92,15 +92,17 @@ cd ai-cinnamon-disease-detection-system
 2️⃣ Create Virtual Environment
 python -m venv venv
 source venv/bin/activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 4️⃣ Setup Database
-
 Import the SQL file into MySQL:
-
 database/schema.sql
+
 5️⃣ Run Backend
 python api.py
+
 6️⃣ Run Frontend
 streamlit run streamlit_app.py
 
