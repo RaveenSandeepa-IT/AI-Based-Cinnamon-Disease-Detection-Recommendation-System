@@ -72,8 +72,6 @@ The system can identify the following conditions:
 ---
 
 ## 🏗️ System Architecture
-
-```text
 User Upload Image
        ↓
 Streamlit Frontend
@@ -87,24 +85,10 @@ Disease Prediction
 Groq LLM Recommendation Engine
        ↓
 PDF Report + Database Storage
-📂 Project Structure
-AI-Cinnamon-Disease-Detection/
-│── frontend/
-│   └── streamlit_app.py
-│── backend/
-│   └── api.py
-│── model/
-│   └── cinnamon_model.h5
-│── database/
-│   └── schema.sql
-│── assets/
-│── reports/
-│── requirements.txt
-│── README.md
+
 ⚙️ Installation Guide
-1️⃣ Clone Repository
-git clone https://github.com/yourusername/ai-cinnamon-disease-detection-system.git
 cd ai-cinnamon-disease-detection-system
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 source venv/bin/activate
@@ -119,32 +103,35 @@ database/schema.sql
 python api.py
 6️⃣ Run Frontend
 streamlit run streamlit_app.py
+
 📈 Results
 Achieved 90%+ prediction accuracy
 Real-time disease detection in seconds
 Reduced dependency on manual expert inspection
 Improved accessibility for rural farmers
 Supports preventive crop management
+
 🔒 Security Features
 Password hashing using bcrypt
 Role-based access control
 Secure login sessions
 Protected admin dashboard
+
 🌍 Future Improvements
 Mobile App Version
 Offline Prediction Support
 Multi-language Support (Sinhala / Tamil / English)
 IoT Sensor Integration
 Expansion to Tea / Pepper / Rubber Disease Detection
-👨‍💻 Author
 
+👨‍💻 Author
 Raveen Sandeepa Pathirana
 Data Science Undergraduate | AI & Machine Learning Enthusiast
 
 📜 License
-
 This project is licensed under the MIT License.
 
 ⭐ Support
+If you like this project, give it a ⭐ on GitHub.
 
 If you like this project, give it a ⭐ on GitHub.
